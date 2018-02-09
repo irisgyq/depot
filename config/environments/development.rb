@@ -1,5 +1,5 @@
 Rails.application.configure do
-  # Settings specified here will take precedence over those in config/application.rb.
+    config.webpacker.check_yarn_integrity = true  # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
@@ -30,6 +30,8 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = false
 
   config.action_mailer.perform_caching = false
+
+  config.action_cable.disable_request_forgery_protection = true
 
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
