@@ -12,5 +12,4 @@ class PurchaseOrderPayType extends React.Component {
       );
 	}
 }
-
 export default PurchaseOrderPayType

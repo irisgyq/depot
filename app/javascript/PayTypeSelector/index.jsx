@@ -1,9 +1,9 @@
 import React from 'react'
 
-import NoPayType from './NoPayType';
-import CreditCardPayType from './CreditCardPayType';
-import CheckPayType from './CheckPayType';
-import PurchaseOrderPayType from './PurchaseOrderPayType';
+import NoPayType             from './NoPayType';
+import CreditCardPayType     from './CreditCardPayType';
+import CheckPayType          from './CheckPayType';
+import PurchaseOrderPayType  from './PurchaseOrderPayType';
 
 class PayTypeSelector extends React.Component {
     constructor(props){
@@ -13,8 +13,8 @@ class PayTypeSelector extends React.Component {
     }
 
     onPayTypeSelected(event) {
-    this.setState({ selectedPayType: event.target.value });
-  }
+      this.setState({ selectedPayType: event.target.value });
+    }
     
 	render() {
 	  let PayTypeCustomComponent = NoPayType;

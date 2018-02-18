@@ -27,6 +27,18 @@ Rails.application.configure do
   end
 
   # Don't care if the mailer can't send.
+  Depot::Application.configure do
+    config.action_mailer.delivery_method = :stmp
+    config.action_mailer.stmp_settings = {
+      address: "stmp.gmail.com",
+      port: 587,
+      domain: "domain.of.sender.net",
+      authentication: "plain",
+      user_name: "dave",
+      password: "secret",
+      enable_starttls_auto: true
+    }
+  end
   config.action_mailer.raise_delivery_errors = false
 
   config.action_mailer.perform_caching = false

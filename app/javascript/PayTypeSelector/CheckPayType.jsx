@@ -20,5 +20,4 @@ class CheckPayType extends React.Component {
     );
   }
 }
-
 export default CheckPayType
