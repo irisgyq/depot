@@ -31,7 +31,7 @@
     <%= form.select :pay_type, Order.pay_types.keys, id: :order_pay_type, prompt: 'Select a payment method' %>
   </div>
   
-  <div id='pay-type-component'></div>
+  <div id='pay-type'></div>
 
   <div class="actions">
     <%= form.submit 'Place Order'%>
