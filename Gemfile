@@ -35,6 +35,8 @@ gem 'draper'
 # Use ActiveModel has_secure_password
  gem 'bcrypt', '~> 3.1.7'
 
+ gem 'i18n-js'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
