@@ -37,6 +37,10 @@ gem 'draper'
 
  gem 'i18n-js'
 
+group :production do
+  gem 'mysql2', '~> 0.4.0'
+end
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
