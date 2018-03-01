@@ -38,7 +38,8 @@ gem 'draper'
  gem 'i18n-js'
 
 group :production do
-  gem 'mysql2', '~> 0.4.0'
+  # gem 'mysql2', '~> 0.4.0'
+  gem 'pg'
 end
 
 # Use Capistrano for deployment
