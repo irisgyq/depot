@@ -1,7 +1,8 @@
+require ('webpack')
 module.exports = {
   entry: './app/javascript/packs/pay_type.jsx',
   output: {
-    path: __dirname + '/app/javascript/PayTypeSelector',
+    path: __dirname + '/',
     filename: 'bundle.js'
   },
   resolve: {
