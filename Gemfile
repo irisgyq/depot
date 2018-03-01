@@ -39,7 +39,7 @@ gem 'draper'
 
 group :production do
   # gem 'mysql2', '~> 0.4.0'
-  gem 'pg'
+  gem 'pg', '~> 1.0.0'
 end
 
 # Use Capistrano for deployment
