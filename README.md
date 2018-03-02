@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a shopping website project using Ruby on Rails.
 
-Things you may want to cover:
+It is based on the book called Agile Web Development with Rails. 
 
-* Ruby version
+Things you could do on this shopping website:
 
-* System dependencies
+* add different products on cart
 
-* Configuration
+* empty cart
 
-* Database creation
+* check out by selecting different pay methods
 
-* Database initialization
+* review, edit and destroy recent orders
 
-* How to run the test suite
+* log in as seller to edit and destroy products
 
-* Services (job queues, cache servers, search engines, etc.)
+* switch the page as English and Spanish version
 
-* Deployment instructions
+* more things are comming...
 
-* ...
+
+And you can experience it by clicking on [The Pragmatic Bookshelf](https://hidden-anchorage-93637.herokuapp.com/)
