@@ -11,7 +11,6 @@ module Depot
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
     config.filter_parameters += [ :credit_card_number ]
-    config.i18n.enforce_available_locales = true
     config.middleware.use I18n::JS::Middleware
 
 
